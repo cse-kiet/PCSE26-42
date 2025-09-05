@@ -1,0 +1,130 @@
+/* ==== Main Container ==== */
+.symptom-container {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  color: black;
+  border-radius: 10px;
+   background-color: rgb(199, 243, 200);
+  
+ 
+}
+/*linear-gradient(95deg, #a9affe, #09117a);
+ background: linear-gradient(95deg, #cbf6a6, rgb(194, 242, 142));
+ background: linear-gradient(95deg, #a9affe, #4850b9);*/
+
+/* ==== Headings ==== */
+.symptom-container h2,
+.symptom-container h4 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+/* ==== Alphabet Row ==== */
+.alphabet-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+
+}
+
+.alphabet-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0d1588;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.alphabet-item:hover {
+  opacity: 1;
+}
+
+.alphabet-item.active {
+  background: #030634;
+  opacity: 1;
+}
+
+/* ==== Expanded Symptom List ==== */
+.symptom-list-expanded {
+  margin: 15px 0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.symptom-list-expanded input{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.symptom-item {
+  display: block;
+  margin: 0px;
+}
+
+/* ==== Selected Symptoms Box ==== */
+.selected-symptoms {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.selected-symptoms span {
+  display: inline-block;
+  margin: 4px;
+  padding: 4px 8px;
+  background: #030634;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+/* ==== Emotion Dropdown ==== */
+select {
+  background-color: rgb(238, 240, 253);
+  padding: 5px;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* ==== Submit Button ==== */
+.btn-primary {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0d1588;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #030634;
+}
+
+.prediction-result{
+   margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(199, 243, 200);
+ 
+}
+/* background: linear-gradient(95deg, #a9affe, #4850b9);*/

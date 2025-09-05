@@ -1,0 +1,28 @@
+.ProfilePic{
+    margin:20px;
+    padding: 10px;
+}
+.profile h3{
+    text-align: center;
+}
+.Patientinfo p{
+    width:250px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(242, 242, 254);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.Doctorinfo {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+.Doctorinfo p{
+    align-items: center;
+    justify-content: center;
+}
+.Drprofile{
+    display: flex;
+    gap:120px;
+    background-color:rgb(173, 241, 174);
+}

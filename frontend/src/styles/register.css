@@ -1,0 +1,66 @@
+
+.reg-container {
+  text-align: center;
+  height: 100vh;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.reg-container div{
+    height:100%;
+  width:40%;
+  background-color: white;
+  color:black;
+  text-align: left;
+  box-shadow: 0 8px 32px rgba(165, 165, 229, 0.4); 
+}
+.reg-container div:first-child{
+color: white;
+width:20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+gap:0px;
+line-height: 0;
+ background: linear-gradient(135deg, #b889eb, #a044ff);
+}
+
+.reg-form{
+  text-align: left;
+  margin-left: 10px;
+}
+.reg-form p{
+    margin-left: 10px;
+}
+input{
+  background-color:rgb(239, 242, 247);
+  padding:10px;
+  border-radius: 10px;
+  border: none;
+  margin-left:10px;
+  margin-top: 10px;
+}
+
+.reg-form h2{
+  font-weight:lighter;
+}
+
+
+.reg-form button{
+  background: linear-gradient(135deg, #b889eb, #a044ff);
+  border-radius: 30px;
+  color:white;
+  padding: 10px;
+  border: 1px solid white;
+  min-width:20%;
+  margin-left:10px;
+}
+button:hover {
+  background-color: #ee5c94;
+}
+

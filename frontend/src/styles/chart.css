@@ -1,0 +1,24 @@
+.wearable-container {
+  margin: 20px;
+  padding: 20px;
+  background: #f8f9ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.wearable-container h2{
+    text-align: center;
+    font-style: italic;
+}
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 30px;
+}
+
+
+.chart-box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  height:30vh;
+}

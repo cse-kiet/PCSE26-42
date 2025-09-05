@@ -1,0 +1,38 @@
+.activities-card {
+    margin-top: 5px;  /* reduced margin */
+    text-align: center;
+}
+
+.activities-card h2 {
+    margin: 15px 0;   /* balanced spacing */
+    color: rgb(20, 68, 20);
+    font-style: italic;
+    font-size: 1.2rem; /* slightly smaller, cleaner */
+}
+
+.card {
+    margin-top: 15px; /* reduced gap */
+    padding: 8px;     /* tighter padding */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.card p {
+    text-align: center;
+    width: 50%;       /* narrower, neater */
+    min-height: 8vh;  /* reduced height */
+    font-size: 1rem;
+    font-weight: 400;
+    background: #f8f9ff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* softer shadow */
+    border-radius: 8px; /* subtle rounding for polish */
+    padding: 8px 12px;  /* spacing inside */
+}
+
+.card p:hover {
+    background-color: #dcdde6;
+    transition: background-color 0.3s ease; /* smooth hover */
+}

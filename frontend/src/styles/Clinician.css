@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction:row;
+}
+/* #0d47a1;*/
+.sidebar {
+  width: 200px;
+  background-color:rgb(173, 241, 174);
+  color: black;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color:black;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.patient-list {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.patient-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-list th {
+  background-color:rgb(173, 241, 174);
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+.patient-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.patient-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.patient-list tbody tr:hover {
+  background-color: #c9e3ff;
+  transition: background-color 0.3s ease;
+}
+
+/* doctorCard.css */
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.doctor-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-card h2 {
+  text-align: center;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+}
+
+.doctor-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-card li {
+  background: #f3e5f5;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.doctor-card li:hover {
+  background: #e1bee7;
+}
+
+.doctor-card strong {
+  color: #4a148c;
+  font-size: 1.1rem;
+}
+.patient-appointments .heading{
+  display: flex;
+  justify-content: space-between;
+}
+ .headings h4{
+  text-align: center;
+}
+.patient-appointments .heading h4.back a {
+  
+  color:#193524;
+  text-decoration: none; /* optional: removes underline */
+  padding: 4px 8px;      /* optional: makes it look like a button */
+  border-radius: 4px;    /* optional: rounded edges */
+}
